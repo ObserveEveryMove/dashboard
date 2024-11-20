@@ -1,0 +1,86 @@
+/* also located in dash.css */
+.cont4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.ball{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0);
+    border-radius: 50%;
+    height: 200px;
+    width: 200px; 
+   
+}
+
+
+.askBtn {
+ 
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    background-color: darkblue;
+    color: lightblue;
+    box-shadow:
+        1px 1px rgb(80, 140, 230),
+        -.15em .15em 0.4em rgb(13, 230, 219);
+}
+.eightBtn{
+    font-size: 50px;
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    background-color: darkblue;
+    color: lightblue;
+    box-shadow:
+        1px 1px rgb(80, 140, 230),
+        -.15em .15em 0.4em rgb(13, 230, 219);
+}
+
+.askBtnClicked {
+    border-radius: 50%;
+    height: 70px;
+    width: 70px;
+    background-color: purple;
+    color: dodgerblue;
+    font-size: 30px;
+    
+    box-shadow:
+    1px 1px rgb(80, 140, 230),
+    -.15em .15em 0.4em rgb(13, 230, 219);
+
+    animation: shake .25s;
+}
+
+
+@keyframes shake {
+    0% {
+        transform: scaleY(2);
+        border: none;
+
+    }
+
+    25% {
+        transform: scaleX(2);
+        border: none;
+
+    }
+
+    50% {
+        transform: scaleY(2);
+        border: none;
+
+
+    }
+
+    100% {
+        transform: scaleX(2);
+        border: none;
+
+
+    }
+}

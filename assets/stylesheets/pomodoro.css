@@ -1,0 +1,472 @@
+
+
+
+
+*,
+html,
+body,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.pomOuter {
+    background-color: dodgerblue;
+    height: 100%; 
+    
+    border-radius: 10px;
+}
+
+.nightMode {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+}
+
+.breakSessionDiv {
+    /* display: flex; */
+    justify-content: space-evenly;
+    align-items: center;
+    /* padding: 2%; */
+}
+
+.hiddenButtons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* padding: 2%; */
+    /* margin: 22px; */
+}
+
+.pomBtn:hover {
+
+    transform: rotate(5deg)scale(1.19);
+    filter: drop-shadow(3px 4px lightblue);
+    text-shadow:
+        1px 1px 2px rgb(35, 235, 241),
+        0 0 1em whitesmoke,
+        0 0 0.2em lightblue;
+
+}
+
+.settingsComp {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+
+}
+
+.settingsBtn {
+    font-size: 250%;
+    color: blue;
+    background: none;
+    border: none;
+}
+
+.nightSettingsBtn {
+    font-size: 250%;
+    color: lightblue;
+    background: none;
+    border: none;
+}
+
+.nightSettingsBtn:hover {
+    transform: scale(1.25);
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 99999px) {
+    .breakSessionDiv {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        /* padding: 2%; */
+    }
+    .pomOuter {
+        background-color: dodgerblue;
+        /* height: 100%;
+        width: 100%; */
+
+    }
+
+    .nightMode {
+        background-color: black;
+        /* height: 100%;
+        width: 100%; */
+    }
+}
+
+@media screen and (min-width: 350px) {
+
+    .breakSessionDiv {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        /* padding: 2%; */
+        /* background-color: white; */
+    }
+    .pomOuter {
+        background-color: dodgerblue;
+        /* height: 100% ;
+        width: 100%; */
+    }
+    
+    .nightMode {
+        background-color: black;
+        /* height: 100vh;
+        width: 100vw; */
+    }
+}
+
+/* bottomButtons.css */
+
+.bottomOuter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* margin-top: 2%; */
+   
+}
+.play {
+    font-size: 300%;
+    background: none;
+    border: none;
+    
+}
+.pause {
+    font-size: 250%;
+    background: none;
+    border: none;
+}
+.hidePlay {
+    font-size: 300%;
+
+    display: none;
+}
+
+.hidePause {
+    font-size: 300%;
+
+    display: none;
+}
+.restart {
+    font-size: 350%;
+    background: none;
+    border: none;
+}
+.nightBtnPlay {
+    font-size: 300%;
+    background: none;
+    border: none;
+    color: rgb(32, 122, 240);
+
+}
+
+.nightBtnRestart {
+    font-size: 350%;
+    background: none;
+    border: none;
+    color: rgb(32, 122, 240);
+
+}
+/* break.css */
+
+.breakOuter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.breakBtns {
+    display: flex;
+    margin: 2%;
+    
+}
+
+.breakDown {
+    margin: 7px;
+    font-size: 250%;
+    background: none;
+    border: none;
+}
+
+
+.breakUp {
+    margin: 7px;
+    font-size: 250%;
+    background: none;
+    border: none;
+}
+
+/* session.css */
+
+.sessionOuter {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.sessionBtns {
+    display: flex;
+    margin: 2%;
+}
+
+.sessionDown {
+    margin: 7px;
+    font-size: 250%;
+    background: none;
+    border: none;
+}
+
+.sessionUp {
+    margin: 7px;
+    font-size: 250%;
+    background: none;
+    border: none;
+}
+
+.hide {
+    display: none;
+    /* margin-top: 80px; */
+}
+
+.workBreakNight {
+    color: rgb(122, 170, 233);
+}
+
+/* settings.css */
+
+.settingsCont {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    
+}
+
+.settingsOuter {
+    background-color: rgb(32, 122, 240);
+
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 20%;
+    border: 2px solid orange;
+    box-shadow:
+    1px 1px rgb(26, 179, 250),
+    .25em .25em 5em white;
+   
+}
+
+.nightModeSettingsOuter{
+    background-color: black;
+
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+    border-radius: 20%;
+    border: 2px solid orange;
+    box-shadow:
+    1px 1px rgb(26, 179, 250),
+    .25em .25em 5em white;
+}
+
+.alarmBtn {
+    font-size: 200%;
+    background: none;
+    border: none;
+}
+
+/* theme.css */
+
+.themeOuter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.themeBtn {
+    background: none;
+    border: none;
+    font-size: 150%;
+}
+
+.nightModeBtn {
+    background: none;
+    border: none;
+    font-size: 150%;
+}
+
+/* timeDisplay.css */
+
+
+.timeDisplay {
+    font-family: monospace;
+}
+
+
+
+.timeOuterWork {
+    border: 4px solid orange;
+    border-radius: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 5%;
+    background-color: rgb(32, 122, 240);
+    box-shadow:
+    1px 1px rgb(26, 179, 250),
+    .25em .25em 5em white;
+}
+
+.timeOuterWorkGreen {
+    border: 4px solid lawngreen;
+    box-shadow:
+    1px 1px rgb(16, 245, 119),
+    .25em .25em 5em white;
+    animation: 6s linear slidein;
+    z-index: 2;
+    border-radius: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 5%;
+    background-color: rgb(32, 122, 240);
+
+}
+
+.timeOuterBreakTransition{
+    border: 4px solid lawngreen;
+    box-shadow:
+    1px 1px rgb(16, 245, 119),
+    .25em .25em 5em white;
+    animation: 6s linear slidein;
+    z-index: 2;
+    border-radius: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 5%;
+    background-color:  rgb(15, 224, 60);
+}
+
+@keyframes slidein {
+    0% {
+        
+       opacity: 75%;
+    }
+    25% {
+        opacity: 50%;
+    }
+
+    50% {
+        opacity: 0%;
+        
+    }
+    75% {
+        opacity: 50%;
+    }
+
+    100% {
+        opacity: 75%;
+      
+    }
+}
+
+.timeOuterBreak {
+    border: 4px solid lightgreen;
+    box-shadow:
+    1px 1px rgb(16, 245, 119),
+    .25em .25em 5em white;
+    border-radius: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 5%;
+    background-color: rgb(15, 224, 60);
+}
+
+.orangeDisplay {
+    border: 5px solid orange;
+}
+
+.switch {
+    animation: 2s rotate linear;
+    font-size: 150%;
+}
+
+
+
+
+/* topDisplay.css */
+/* 
+.topDisplay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2%;
+    
+}
+
+.topFont {
+    font-size: 60px;
+
+}
+
+.topFontNightMode{
+    font-size: 60px;
+    color: rgb(122, 170, 233);
+} */
+
+/* volume.css */
+
+.volumeOuter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 2%; */
+    border-radius: 20%;
+    
+    
+ }
+ 
+ .greenvol {
+     border: 3px solid rgb(56, 233, 56);
+     margin: 5px;
+     box-shadow:
+     1px 1px rgb(16, 245, 119),
+     .25em .25em 5em white;
+    border-radius: 20%;
+    padding: 2%;
+ }
+ 
+ .redvol {
+   border:   3px solid tomato;
+   margin: 5px;
+   box-shadow:
+   1px 1px rgb(252, 5, 5),
+   .25em .25em 5em red;
+   border-radius: 20%;
+   padding: 2%;
+ }

@@ -1,0 +1,43 @@
+/* also found in dash.css */
+.cont2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.qcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 650px;
+    height: 300px;
+   
+}
+
+.qcard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: lightblue;
+   
+}
+
+.qquote {
+    font-family: cursive;
+}
+
+/* .qbutton {
+    position: absolute; 
+    bottom: 45%;
+} */
+
+.nightText {
+    color: dodgerblue;
+    font-family: cursive;
+
+}
+

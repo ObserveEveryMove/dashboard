@@ -1,0 +1,34 @@
+.navOuter {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    flex-direction: column;
+ 
+}
+
+.navBar {
+   margin-top: 10px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20px;
+
+
+}
+
+.dashA:link {
+    color: dodgerblue;
+    font-size: 30px;
+    margin: 7px;
+}
+
+.dashA:visited{
+    color: dodgerblue;
+}
+
+.navText {
+    margin-left: 8px;
+    margin-top: 13px;
+    color: aliceblue;
+    font-size: 25px;
+}

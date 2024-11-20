@@ -1,0 +1,103 @@
+.todoOuter {
+    background-color: blue;
+    /* height: 100%;
+    width: 100%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.todoForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+
+}
+
+
+
+
+
+.enterATask {
+    text-align: center;
+
+}
+
+
+
+.todoSubmitBtn {
+    /* width: 15vw; */
+   
+  padding: 9px;
+    margin: 10px;
+    border: 3px dotted deepskyblue;
+    ;
+
+    font-family: monospace;
+    box-sizing: border-box;
+    text-shadow: 1px 1px 2px black,
+        0 0 1em rgb(16, 201, 108),
+        0 0 0.2em rgb(5, 180, 142);
+    ;
+  
+
+}
+
+.changeBtn {
+
+    font-size: 18px;
+    margin: 10px;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    text-shadow: 1px 1px 2px rgb(34, 238, 51),
+        0 0 1em rgb(64, 253, 212),
+        0 0 0.2em rgb(64, 243, 198);
+    ;
+
+}
+
+.removeBtn {
+    font-size: 18px;
+    margin: 10px;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    text-shadow: 1px 1px 2px rgb(34, 238, 51),
+        0 0 1em rgb(64, 253, 212),
+        0 0 0.2em rgb(64, 243, 198);
+    ;
+
+}
+
+.removeBtn:hover {
+    transform: scale(1.1);
+}
+
+.changeBtn:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+
+
+.todoCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+  
+    background-color: rgb(8, 137, 241);
+   
+}
+
+
+.todoLi {
+    font-size: 20px;
+}

@@ -1,0 +1,246 @@
+.loginOuter {
+    background-color: darkslategray;
+    color: lightgray;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+   text-align: center;
+    flex-direction: column;
+
+  
+}
+
+.loginLanding {
+    display: flex;
+    flex-direction: column;
+
+    padding-top: 40px;
+    align-items: center;
+    background-color: darkslategray;
+    color: lightgray;
+    height: 100vh;
+    width: 100vw;
+}
+.logOutGreeting{
+    animation: marq linear infinite 4s;
+    margin-top: 5%;
+    behavior: alternate;
+    font-size: 45px;
+}
+
+
+
+@keyframes marq {
+    0% {
+       opacity: 0%;
+        color: rgb(3, 35, 95);
+    }
+
+    25% {
+       opacity: 25%;
+       color: rgb(12, 63, 158);
+
+    }
+
+    50% {
+    opacity: 50%;
+    color: rgb(62, 126, 243);
+
+
+    }
+
+    100% {
+        opacity: 100%;
+        color: rgb(37, 111, 247);
+
+
+
+    }
+}
+
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    padding-bottom: 10%;
+}
+
+.loginInput {
+    border: 3px solid dodgerblue;
+    background: gray;
+    color: lightgray;
+    padding: 2px;
+    border-radius: 5%;
+    font-size: large;
+    margin: 3px;
+    box-shadow:
+        1px 1px rgb(8, 176, 243),
+        .25em .25em 5em white;
+}
+
+.loginInput::placeholder {
+    color: white;
+}
+
+.registrationPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: darkslategray;
+    color: lightgray;
+    height: 100vh;
+    width: 100vw;
+}
+
+.logInBtn {
+    padding: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: darkslategray;
+    color: lightgray;
+    /* margin: 3px; */
+    margin-top: 3px;
+    border-radius: 5px;
+
+
+
+}
+
+.logInBtn:hover {
+    transform: scale(1.2);
+    box-shadow:
+        1px 1px rgb(8, 176, 243),
+        .25em .25em 5em white;
+}
+
+.registrationOuter {
+    background-color: darkolivegreen;
+    border-radius: 1em;
+    padding: 1em;
+    border: 2px solid darkolivegreen;
+}
+
+
+
+.registrationForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5%;
+    padding-bottom: 10%;
+}
+
+.error {
+    text-align: center;
+    color: tomato;
+    animation: error linear infinite 7s;
+    font-size: 35px;
+}
+
+
+@keyframes error {
+    0% {
+        color: red;
+       opacity: 100%;
+    }
+    25% {
+        color: tomato;
+        opacity: 50%;
+    }
+
+    50% {
+        color: tomato;
+        opacity: 0%;
+        
+    }
+    75% {
+        color: tomato;
+        opacity: 50%;
+    }
+
+    100% {
+        color: red;
+        opacity: 100%;
+      
+    }
+}
+
+.confirm {
+    border: 3px solid tomato;
+
+    background: gray;
+    color: lightgray;
+    padding: 2px;
+    border-radius: 5%;
+    font-size: large;
+
+    margin: 3px;
+    box-shadow:
+        1px 1px rgb(252, 5, 5),
+        .25em .25em 5em red;
+}
+
+.confirm::placeholder,
+.confirmed::placeholder {
+    color: white;
+
+}
+
+.confirmed {
+    border: 3px solid rgb(56, 233, 56);
+
+    background: gray;
+    color: lightgray;
+    padding: 2px;
+    border-radius: 5%;
+    font-size: large;
+    margin: 3px;
+    box-shadow:
+        1px 1px rgb(16, 245, 119),
+        .25em .25em 5em white;
+}
+
+.checkBox {
+    margin: 10px;
+    width: 2em;
+    height: 2em;
+
+
+}
+
+.newsLetter {
+    margin-bottom: 10px;
+}
+
+/* mdn css styling */
+/* .checkBox[type="checkbox"] {
+    position: relative;
+    width: 1em;
+    height: 1em;
+    border: 1px solid gray;
+  
+    vertical-align: -2px;
+  
+    color: green;
+  }
+  
+  .checkBox[type="checkbox"]::before {
+    content: "✔";
+    position: absolute;
+    font-size: 1.2em;
+    right: -1px;
+    top: -0.3em;
+    visibility: hidden;
+  }
+  
+  .checkBox[type="checkbox"]:checked::before {
+    
+    visibility: visible;
+  }
+  
+  .checkBox[type="checkbox"]:disabled {
+    border-color: black;
+    background: blue;
+    color: gray;
+  } */

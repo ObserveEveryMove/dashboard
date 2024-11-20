@@ -1,0 +1,29 @@
+@import url(./assets/stylesheets/profile.css);
+@import url(./assets/stylesheets/registrationLogin.css);
+@import url(./assets/stylesheets/dash.css);
+@import url(./assets/stylesheets/pomodoro.css);
+@import url(./assets/stylesheets/magic.css);
+@import url(./assets/stylesheets/quote.css);
+@import url(./assets/stylesheets/drum.css);
+@import url(./assets/stylesheets/todo.css);
+@import url(./assets/stylesheets/navbar.css);
+@import url(./assets/css/all.css);
+*,
+html,
+body,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app {
+    background-color: darkslateblue;
+    width: 100vw;
+    height: 100vh;
+   
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}

@@ -1,0 +1,89 @@
+.cont3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.drum-pad {
+    margin: 5px;
+    background-color: darkgrey;
+    border: none;
+    font-weight: bold;
+    text-shadow:  1px 1px 2px black,
+    0 0 1em blue,
+    0 0 0.2em blue;;
+    color: white;
+    font-size: 20px;
+    box-shadow:
+        1px 1px black,
+        .25em .25em 0.4em black;
+    border-radius: 3px;
+}
+#drum-machine {
+    background-color: lightslategray;
+    border: 5px solid goldenrod;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.drumOuter {
+    background-color: grey;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* height: 65%; */
+    /* margin-left: 43%; */
+}
+.bank {
+   
+    background-color: darkgrey;
+    border: none;
+    font-weight: bold;
+    box-shadow:
+        1px 1px black,
+        .25em .25em 0.4em black;
+    border-radius: 3px;
+    margin-top: 20%;
+}
+
+.mx {
+ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.my {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.greenvol {
+    border: 3px solid rgb(56, 233, 56);
+    margin: 5px;
+    box-shadow:
+    1px 1px rgb(16, 245, 119),
+    .25em .25em 5em white;
+}
+.redvol {
+  border:   3px solid tomato;
+  margin: 5px;
+  box-shadow:
+  1px 1px rgb(252, 5, 5),
+  .25em .25em 5em red;
+}
+
+.heaterKit {
+    background-color: darkgray;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    margin-right: 5px;
+    box-shadow:
+    1px 1px black,
+    .25em .25em 0.4em black;
+}
